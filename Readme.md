@@ -19,13 +19,13 @@ finance-agent/
 ├── data/
 │   └── finance.db              # created automatically on first run
 └── src/
-    └── finance_agent/
-        ├── __init__.py
-        ├── config.py            # LLM provider setup (Google / Groq)
-        ├── database.py          # SQLite CRUD for transactions & budgets
-        ├── prompts.py           # system prompt / agent persona
-        ├── tools.py             # LangChain @tool functions the agent can call
-        └── graph.py             # LangGraph ReAct agent (LLM + tools + memory)
+    |
+    ├── __init__.py
+    ├── config.py            # LLM provider setup (Google / Groq)
+    ├── database.py          # SQLite CRUD for transactions & budgets
+    ├── prompts.py           # system prompt / agent persona
+    ├── tools.py             # LangChain @tool functions the agent can call
+    └── graph.py             # LangGraph ReAct agent (LLM + tools + memory)
 ```
 
 ## Setup
